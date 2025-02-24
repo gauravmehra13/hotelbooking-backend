@@ -5,7 +5,6 @@
 [![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](https://expressjs.com/)
 [![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
 
-This is a robust and scalable backend API built using Node.js, Express.js, MongoDB, and Mongoose. It provides a solid foundation for your web or mobile applications, offering efficient data management and seamless API interactions.
 
 ## Features
 
@@ -69,3 +68,15 @@ This project includes two npm scripts for starting the server:
     This command executes `"start": "node index.js"` from your `package.json`. It runs your `index.js` file directly with Node.js, without any automatic restarts.
 
 ### Project Structure
+
+hotelbooking-backend/
+├── node_modules/
+├── controllers/       # Contains route handlers
+├── models/            # Defines Mongoose schemas
+├── routes/            # Defines API routes
+├── utils/             # error and verification files
+├── index.js           # Main application file
+├── package.json
+├── package-lock.json
+├── .env               # Environment variables
+└── README.md
